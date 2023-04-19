@@ -2112,6 +2112,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.35em;
 			display: block;
+			max-height: 205px;
 		}
 
 		.image.left {
@@ -2142,6 +2143,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				object-fit: contain;
 			}
 
 		.image.avatar {

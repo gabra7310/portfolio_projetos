@@ -16,7 +16,7 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/profile.jpg" alt="" /></a>
+					<a href="#main" class="image avatar"><img src="images/profile.jpg" alt="" /></a>
 					<h1>Meu nome é <strong>Gabriel Alves</strong>, e esse é o<br />
 					meu portfólio de projetos em ciências de dados e programação.</h1>
 				</div>
@@ -24,6 +24,14 @@
 
 		<!-- Main -->
 			<div id="main">
+			
+			<ul class="actions">
+				<li><a href="#about-me" class="button fit">Sobre mim</a></li>
+				<li><a href="#habilities" class="button fit">Habilidades</a></li>
+				<li><a href="#prof-exp" class="button fit">Experiências</a></li>
+				<li><a href="#projects" class="button fit primary">Projetos</a></li>
+				<li><a href="#contact" class="button fit">Contato</a></li>
+			</ul>
 
 				<!-- One -->
 					<section id="one">
@@ -38,8 +46,8 @@
 					</section>
 				
 
-					<section id="two">
-						<h1>Sobre mim</h1>
+					<section id="about-me">
+						<h1><u>Sobre mim</u></h1>
 						<p>
 						Meu nome é Gabriel Alves, sou formado em Engenharia Civil e trabalho com avaliações de imóveis.
 						</p>
@@ -51,8 +59,8 @@
 						</p>
 					</section>
 
-					<section id="three">
-						<h1>Habilidades</h1>
+					<section id="habilities">
+						<h1><u>Habilidades</u></h1>
 						<article>
 						<div class="content" >
 							<h3 style="font-weight: bold;"><span class="icon solid fa-code fa-lg"></span> Linguagens de Programação e Banco de Dados</h3>
@@ -89,7 +97,7 @@
 						<div class="content" >
 							<h3 style="font-weight: bold;"><span class="icon solid fa-code-branch fa-lg"></span> Engenharia de Dados </h3>
 							<ul>
-								<li>Git, Github, Gitlab, Cookiecutter, Virtual Environment e Docker.</li>
+								<li>Git, Github, Gitlab, Virtual Environment e Docker.</li>
 								<li>Streamlit, Flask, Python API's.</li>
 								<li>Cloud Heroku, AWS Amazon, Google Cloud Platform ( GCP ) e Azure</li>							</ul>
 						</div>
@@ -98,8 +106,8 @@
 					</section>
 
 
-					<section id="four">
-						<h1>Experiências profissionais</h1>
+					<section id="prof-exp">
+						<h1><u>Experiências profissionais</u></h1>
 						<p><h2 style="font-weight: 600;">4+ Projetos completos de Ciência de Dados</h2>
 						Desenvolvi soluções de dados que solucionam problemas de negócios semelhantes aos desafios enfrentados pelas empresas, utilizando dados públicos de competições de Ciência de Dados. Desde a concepção do desafio de negócio até a publicação do algoritmo treinado em produção, fui responsável por realizar todo o processo.
 						</p>
@@ -111,19 +119,65 @@
 						</p>
 					</section>
 				<!-- Two -->
-					<section id="two">
-						<h2>Recent Work</h2>
+					<section id="projects">
+						<h1><u>Projetos em Ciência de Dados</u></h1>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="https://github.com/gabra7310/food_place" class="image fit thumb"><img src="images/food_place.png" alt=""/></a>
+								<h2>Dashboard de marketplace de restaurantes com Streamlit</h2>
+								<p>Nesse projeto, os conceitos de Programação em Python, manipulação de dados, pensamento estratégico e lógica de negócio, junto com ferramentas de desenvolvimetno web como o Streamlit e Github, foram usados para desenvolver um painel gerencial com as principais métricas de uma empresa marketplace de delivery de comida na India.</p>
+								<br/>
+								<p>	O resultado final do projeto foi um painel hospedado em um ambiente Cloud e disponibilizado através de um link web. O painel pode ser acessado por qualquer dispositivo conectado na internet</p>
+								<br/>
+								<p><a href="https://food-place.streamlit.app/" target="_blank" rel="noopener noreferrer">https://food-place.streamlit.app/</a></p>
+								<br />
+								<p>As ferramentas utilizadas foram:
+								<ul>
+									<li>Python</li>
+									<li>Jupyter Notebook</li>
+									<li>Terminal</li>
+									<li>Streamlit</li>
+									<li>Github</li>
+								</ul>
+								</p>
+								<ul class="actions">
+									<li><a href="https://github.com/gabra7310/food_place" class="button fit small" target="_blank" rel="noopener noreferrer">Saiba mais</a></li>
+								</ul>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="images/rossman-scaled.jpg" class="image fit thumb"><img src="images/rossman-scaled.jpg" alt="" /></a>
+								<h2>Rossmann Sales Forecasting</h2>
+								<p>
+									O CFO da Rossmann decidiu fazer fazer reformas em algumas lojas,
+									porém para determinar quais lojas seriam reformadas, 
+									ele nos solicitou a previsão de vendas em todas as lojas nos próximos 6 meses.
+								</p>
+								<p>	
+									<br />
+									Foram implementados cinco modelos distintos, sendo que o modelo XGBoost foi selecionado como o mais preciso. 
+									Para a implementação em produção, utilizou-se o Flask e a nuvem do Render,
+									 além da criação de um chatbot no Telegram para que os usuários possam acessar as previsões a partir de qualquer localidade.
+								</p>
+								<br/>
+								<p>
+									De maneira geral, o projeto evidencia o potencial da Aprendizagem de Máquina na previsão de vendas,
+									 destacando as vantagens da utilização de um chatbot para fornecer os resultados de forma prática e conveniente.
+								</p>
+								<br/>
+								<p>As ferramentas utilizadas foram:
+									<ul class="col-6 col-12-xsmall">
+										<li>Python</li>
+										<li>Jupyter Notebook</li>
+										<li>Seaborn</li>
+										<li>Sklearn</li>
+										<li>XGBoost</li>
+									</ul>
+									</p>
+									<ul class="actions">
+										<li><a href="https://github.com/gabra7310/ds_em_producao" class="button fit small" target="_blank" rel="noopener noreferrer">Saiba mais</a></li>
+									</ul>
 							</article>
+							<!--
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
 								<h3>Tortor metus commodo</h3>
@@ -143,45 +197,32 @@
 								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
 								<h3>Risus ornare lacinia</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
+							</article> -->
 						</div>
-						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
 					</section>
 
 				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
+					<section id="contact">
+						<h1><u>Entre em contato</u></h1>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
 									<li>
 										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										1234 Somewhere Rd.<br />
-										Nashville, TN 00000<br />
-										United States
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										000-000-0000
+										Vila Prudente<br />
+										São Paulo, SP<br />
+										Brasil
 									</li>
 									<li>
 										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">hello@untitled.tld</a>
+										<a href="mailto:gabriel.alves995@gmail.com">gabriel.alves995@gmail.com</a>
+									</li>
+									<li>
+										<h3 class="icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
+										<a href="https://www.linkedin.com/in/gabriel-alves-7310/" target="_blank" rel="noopener noreferrer">Gabriel Alves</a>
+									</li>
+									<li>
+										<h3 class="icon brands fa-github"><span class="label">GitHub</span></h3>
+										<a href="https://github.com/gabra7310" target="_blank" rel="noopener noreferrer">gabra7310</a>
 									</li>
 								</ul>
 							</div>
@@ -189,7 +230,7 @@
 					</section>
 
 				<!-- Four -->
-				
+				<!-- 
 					<section id="four">
 						<h2>Elements</h2>
 
@@ -512,13 +553,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://www.linkedin.com/in/gabriel-alves-7310/" class="icon brands fa-linkedin" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/gabra7310" class="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span class="label">Github</span></a></li>
+						<li><a href="mailto:gabriel.alves995@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Portfólio Gabriel Alves</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
